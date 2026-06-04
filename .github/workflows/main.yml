@@ -31,7 +31,7 @@ jobs:
           if ! command -v pm2 &> /dev/null; then sudo npm install -g pm2; fi
           # Clone or update the repo
           if [ ! -d "react-ec2-ddeployment" ]; then
-            git clone https://github.com/ike3232/react-ec2-ddeployment.git
+            git clone https://github.com/cyberwolf1972/react-ec2-ddeployment.git
           else
             cd react-ec2-ddeployment && git pull origin main
           fi
